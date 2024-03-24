@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin User Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="project-details">
+        <div class="project-details-container">
+            <h1 class="title">Admin User Interface</h1>
+            <!-- Add project images here -->
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    
+                        <div class="image-wrapper">
+                            <img src="./assets/User1.png" alt="Project Image 1">
+                            <img src="./assets/User2.png" alt="Project Image 1">
+                            <img src="./assets/User3.png" alt="Project Image 1">
+                            
+                            <!-- Add more images as needed -->
+                        </div>
+                    
+                </div>
+            </div>
+            
+            
+
+            <!-- Project Description -->
+            <div class="project-description">
+                <h2>Description:</h2>
+                <ul>
+                    <li>Group Project</li>
+                    <li>Implemented Admin and User authentication with OTP-based signup and forgot password functionality</li>
+                    <li>Utilized JWT authentication for secure user authentication</li>
+                    <li>Designed a hierarchical database structure: Head -> Mobiliser -> Admin -> User</li>
+                    <li>Implemented data security measures at different levels to ensure secure data handling</li>
+                    <li>Enabled user registration using Aadhar card and PAN card, with data storage on Firebase</li>
+                    <li>Utilized data visualization techniques and automated payment updates based on user hierarchy</li>
+
+                </ul>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <h2>Tech Stack:</h2>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>ExpresJs</li>
+                    <li>NodeJs</li>
+                    <li>React</li>
+                    <!-- Add more technologies used -->
+                </ul>
+            </div>
+
+            <!-- Back Button -->
+            <button button class="btn btn-color-2 project-btn" onclick="goBack()">Go Back</button>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>

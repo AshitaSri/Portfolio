@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList App using MEAN Project Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="project-details">
+        <div class="project-details-container">
+            <h1 class="title">TodoList App using MEAN</h1>
+            <!-- Add project images here -->
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    
+                        <div class="image-wrapper">
+                            <img src="./assets/Todo.png" alt="Project Image 1">
+                            
+                            <!-- Add more images as needed -->
+                        </div>
+                    
+                </div>
+            </div>
+            
+            
+
+            <!-- Project Description -->
+            <div class="project-description">
+                <h2>Description:</h2>
+                <ul>
+                    <li>User registration and login using JWT </li>
+                    <li>CRUD functionality for tasks (Create, Read, Update, Delete)</li>
+                    <li>Task fields: title, description, due date, and status (pending, in progress, completed)</li>
+                    <li>Task list view with filtering based on status</li>
+                    <li>Pagination to limit the number of tasks displayed per page</li>
+                    <li>Ability to mark tasks as completed</li>
+                    <li>Backend API endpoints to support the frontend functionality</li>
+                    <li>Error handling and validation on both frontend and backend</li>
+                    <li>Deployment on Heroku</li>
+                </ul>
+            </div>
+
+            <!-- Tech Stack -->
+            <div class="tech-stack">
+                <h2>Tech Stack:</h2>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>ExpresJs</li>
+                    <li>NodeJs</li>
+                    <li>Angular</li>
+                    <!-- Add more technologies used -->
+                </ul>
+            </div>
+
+            <!-- Back Button -->
+            <button button class="btn btn-color-2 project-btn" onclick="goBack()">Go Back</button>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>
